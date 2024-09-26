@@ -1,13 +1,14 @@
 //PWD:ya4LSaTVxsh2QzMe
 import express, { Express} from "express"
 import mongoose from "mongoose"
-
 import financialRecordRouter from "./routes/financial-records";
+import cors from "cors"
 
 const app: Express = express()
 const port = process.env.PORT || 3001;
 
 app.use(express.json());
+app.use(cors());
 
 const mongoURI: string = 
 "mongodb+srv://mwitipet:ya4LSaTVxsh2QzMe@personalfinanceapp.ihnh2.mongodb.net/"
