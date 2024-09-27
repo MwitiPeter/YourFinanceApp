@@ -10,7 +10,6 @@ export const Auth = () => {
             </SignedOut>
             <SignedIn>
                 <Navigate to="/" />
-                
             </SignedIn>
         </div>
     )
