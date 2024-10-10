@@ -1,16 +1,28 @@
-Created This Finance-yako application as the final project May cohort PLP.
-Used the following Languages and databases:
+__Created This Finance-yako application as the final project May cohort PLP.__
+
+__Used the following Languages and databases:__
+
    (Javascript,nodejs,mongodb,clerk for authentication and Typescript )
-How to access the client side /folder:
+	 
+__How to access the client side /folder:__
+
    npm i -globall yarn
+   
    yarn create vite 
+   
    yern
+   
    yern dev 
-How to access the server side/folder:
+	 
+__How to access the server side/folder:__
+
    yern init -y
+   
    yern start 
-Note:
-Don't forget to install all dependancies in the package.json file 
+	 
+__Note:__
+
+   Don't forget to install all dependancies in the package.json file 
 
    
    
